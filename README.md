@@ -46,5 +46,7 @@ reports about celebrities.)
             of the input text (e.g. Named Entity Recognition with RDF output)
         - example output only links to dbpedia
     * [NERD](http://nerd.eurecom.fr/documentation) (web service)
+        - extracts annotations using various nlp tools (including dbpedia spotlight,
+            opencalais, alchemy, ...), but also supports a "combined" mode
     * [alchemy](http://alchemyapi.com) (web service, [demo](http://www.alchemyapi.com/products/demo/))
     * [open calais](http://opencalais.com) (web service)
