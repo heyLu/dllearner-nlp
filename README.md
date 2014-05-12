@@ -30,7 +30,7 @@ reports about celebrities.)
     * description logics ("The Description Logic Handbook")
     * NLP (Information Extraction, Knowledge Extraction,
         Named Entity Recognition)
-    * [DL-Learner](http://dllearner.org)
+    * [DL-Learner](http://dllearner.org) ([manual/introduction](http://dl-learner.org/files/dl-learner-manual.pdf))
 - nlp tools
     * [DBpedia Spotlight](https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki)
         (installable web service & [demo](http://spotlight.dbpedia.org/demo/))
