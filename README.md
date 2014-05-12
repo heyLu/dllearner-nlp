@@ -33,7 +33,9 @@ reports about celebrities.)
     * [DL-Learner](http://dllearner.org) ([manual/introduction](http://dl-learner.org/files/dl-learner-manual.pdf))
 - nlp tools
     * [DBpedia Spotlight](https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki)
-        (installable web service & [demo](http://spotlight.dbpedia.org/demo/))
+        (installable web service & [demo](http://spotlight.dbpedia.org/demo/),
+         [demo rest endpoint](http://spotlight.sztaki.hu:2222/rest))
+        - annotates text with terms from dbpedia
     * [FRED](http://wit.istc.cnr.it/stlab-tools/fred) (web service,
         [documentation](http://wit.istc.cnr.it/stlab-tools/fred/api))
         - extracts entities and relationships between them from sentences
