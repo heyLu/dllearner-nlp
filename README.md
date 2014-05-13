@@ -18,10 +18,7 @@ NLP: given a text, extract terms from it
         and generate class descriptions from them.
     * input facts -> check to which preexisting classes they belong
         (not a learning task?)
-
-(We need to find some domain for which we want to generate facts for.
-Likely something with general enough rules, e.g. probably not news
-reports about celebrities.)
+- (likely) data source: wikipedia abstracts
 
 # Resources
 
