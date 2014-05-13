@@ -19,6 +19,19 @@ NLP: given a text, extract terms from it
     * input facts -> check to which preexisting classes they belong
         (not a learning task?)
 - (likely) data source: wikipedia abstracts
+- output/extraction characteristics
+    * number of recognized terms
+    * number of correctly/incorrectly recognized terms
+        - incorrect examples: wrong term, partial term
+        - will likely be better if we can include knowledge about
+            the domain (e.g. use facts of dbpedia article when
+            parsing the abstract)
+
+            the tools might not support this, though. but maybe
+            that's where the DL-Learner comes in, it would be given
+            the existing facts as "correct" facts and should then
+            decide which of the terms are correct/useful.
+    * repeated occurrences of the same term
 
 # Resources
 
