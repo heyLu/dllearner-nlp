@@ -12,26 +12,19 @@ NLP: given a text, extract terms from it
 - to be useful, those need to be from ontologies (or otherwise
     have an assigned/agreed upon meaning)
 
-- What do we want? (maybe)
-    * Given an input text containing information (facts?) about the
-        domain in question we want to feed those facts into DL-Learner
-        and generate class descriptions from them.
-    * input facts -> check to which preexisting classes they belong
-        (not a learning task?)
-- (likely) data source: wikipedia abstracts
-- output/extraction characteristics
-    * number of recognized terms
-    * number of correctly/incorrectly recognized terms
-        - incorrect examples: wrong term, partial term
-        - will likely be better if we can include knowledge about
-            the domain (e.g. use facts of dbpedia article when
-            parsing the abstract)
+# Goals/Ideas
 
-            the tools might not support this, though. but maybe
-            that's where the DL-Learner comes in, it would be given
-            the existing facts as "correct" facts and should then
-            decide which of the terms are correct/useful.
-    * repeated occurrences of the same term
+* parsing the abstracts of instances of classes and then figuring
+    out which schema entities (classes & properties) appear most
+    often
+
+    - the task is to evaluate nlp tools with respect to how well
+        they could be used to do this
+* extracting axioms from text, by inferring schema knowledge
+    from it (e.g. given "Paul is a human", infer that Paul is
+    an instance of the class "human")
+* extracting facts from text, similar to extracting axioms, but
+    with a different grammar and patterns to look out for
 
 # Resources
 
