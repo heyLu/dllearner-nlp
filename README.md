@@ -26,6 +26,32 @@ NLP: given a text, extract terms from it
 * extracting facts from text, similar to extracting axioms, but
     with a different grammar and patterns to look out for
 
+# Evaluation:
+
+* DBpedia Spotlight
+    - extracts instances from dbpedia
+* FRED
+    - extracts tuples representing the structure of the given text
+    - doesn't work with larger examples (such as dbpedia abstracts)
+* FOX
+    - extracts instances from dbpedia
+    - often enabling one of the "Fox Light" options improves the
+        results (supposedly because the different nlp algorithms
+        have to agree on the extracted entities, maybe merging the
+        results differently would work better, for example using the
+        most specific terms found (longest))
+* NERD
+    - entity extraction as well
+    - is able to use a number of different tools, but using the
+        same output format for all of them
+
+FRED is the only tool that does semantic analysis, but it often generates
+classes on its own. Creating a custom analyzer might be a better way
+to extract tuples from text.
+
+Even though NERD only does entity extraction, it might still be useful
+because it allows us to use a number of different apis.
+
 # Resources
 
 - background:
