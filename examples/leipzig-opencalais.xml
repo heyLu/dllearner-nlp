@@ -1,0 +1,785 @@
+<?xml version="1.0"?>
+<!--Use of the Calais Web Service is governed by the Terms of Service located at http://www.opencalais.com. By using this service or the results of the service you agree to these terms of service.-->
+<!--Relations: GenericRelations
+City: Berlin, Dresden, Leipzig, Saxony
+Company: the New York Times
+Continent: Europe
+Country: East Germany, Germany
+IndustryTerm: transport infrastructure
+NaturalFeature: Elster river, Parthe river, Pleiße river, Weisse Elster river, Weisse river
+Organization: St. Nicholas Church
+ProvinceOrState: Saxony
+PublishedMedium: the New York Times
+Region: Eastern Europe
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:c="http://s.opencalais.com/1/pred/">
+  <rdf:Description c:calaisRequestID="831c45f8-7735-82ed-146a-96a597346620" c:id="http://id.opencalais.com/G*fbqPJFT0QCgNcdXXwXmw" rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/DocInfo"/>
+    <c:document><![CDATA[<body> Leipzig with more than 540,000 inhabitants. , is the largest city by population (the second largest being Dresden) in the federal state of Saxony, Germany. Leipzig is situated about 150 km south of Berlin at the confluence of the Weisse Elster, Pleiße, and Parthe rivers at the southerly end of the North German Plain. Leipzig has always been a trade city, situated during the time of the Holy Roman Empire at the intersection of the Via Regia and Via Imperii, two important trade routes. At one time, Leipzig was one of the major European centres of learning and culture in fields such as music and publishing. After World War II, Leipzig became a major urban centre within the German Democratic Republic (East Germany) but its cultural and economic importance declined, despite East Germany being the richest economy in the Soviet Bloc. Leipzig later played a significant role in instigating the fall of communism in Eastern Europe, through events which took place in and around St. Nicholas Church. Since the reunification of Germany, Leipzig has undergone significant change with the restoration of some historical buildings, the demolition of others, and the development of a modern transport infrastructure. Nowadays Leipzig is an important economic centre in Germany and has many institutions and opportunities for culture and recreation including a prominent opera house and one of the most modern zoos in Europe. In 2010 Leipzig was ranked among the top 70 world's most livable cities by consulting firm Mercer in their quality of life survey. Also in 2010, Leipzig was included in the top 10 of cities to visit by the New York Times, and ranked 39th globally out of 289 cities for innovation in the 4th Innovation Cities Index published by Australian agency 2thinknow.</body>]]></c:document>
+    <c:docTitle/>
+    <c:docDate>2014-06-17 05:40:58.214</c:docDate>
+  </rdf:Description>
+  <rdf:Description c:contentType="text/html" c:emVer="7.1.1103.5" c:langIdVer="DefaultLangId" c:language="English" c:processingVer="CalaisJob01" c:submissionDate="2014-06-17 05:40:57.715" rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/meta">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/DocInfoMeta"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:submitterCode>b14242af-b7f4-ad3a-13d5-a282a5736818</c:submitterCode>
+    <c:signature>digestalg-1|Vtlb1ZpHzFb93ZGB0z+SJDBIbdI=|ToMru6mGNaWqeFezGNRnW0b1t89zgaWdjt7uFCBd+GJEwKom7nDJPA==</c:signature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/lid/DefaultLangId">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/lid/DefaultLangId"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:lang rdf:resource="http://d.opencalais.com/lid/DefaultLangId/English"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Country"/>
+    <c:name>Germany</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/1">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062"/>
+    <!--Country: Germany; -->
+    <c:detection>[being Dresden) in the federal state of Saxony, ]Germany[. Leipzig is situated about 150 km south of]</c:detection>
+    <c:prefix>being Dresden) in the federal state of Saxony, </c:prefix>
+    <c:exact>Germany</c:exact>
+    <c:suffix>. Leipzig is situated about 150 km south of</c:suffix>
+    <c:offset>154</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/2">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062"/>
+    <!--Country: Germany; -->
+    <c:detection>[St. Nicholas Church. Since the reunification of ]Germany[, Leipzig has undergone significant change with]</c:detection>
+    <c:prefix>St. Nicholas Church. Since the reunification of </c:prefix>
+    <c:exact>Germany</c:exact>
+    <c:suffix>, Leipzig has undergone significant change with</c:suffix>
+    <c:offset>1036</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/3">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062"/>
+    <!--Country: Germany; -->
+    <c:detection>[Leipzig is an important economic centre in ]Germany[ and has many institutions and opportunities for]</c:detection>
+    <c:prefix>Leipzig is an important economic centre in </c:prefix>
+    <c:exact>Germany</c:exact>
+    <c:suffix> and has many institutions and opportunities for</c:suffix>
+    <c:offset>1273</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/1">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062"/>
+    <c:relevance>0.681</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/d6518dff-90a2-34f0-9b31-d1ca6e8e5060">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/NaturalFeature"/>
+    <c:name>Weisse Elster river</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/4">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/d6518dff-90a2-34f0-9b31-d1ca6e8e5060"/>
+    <!--NaturalFeature: Weisse Elster river; -->
+    <c:detection>[150 km south of Berlin at the confluence of the ]Weisse Elster[, Plei&#xDF;e, and Parthe rivers at the southerly end]</c:detection>
+    <c:prefix>150 km south of Berlin at the confluence of the </c:prefix>
+    <c:exact>Weisse Elster</c:exact>
+    <c:suffix>, Plei&#xDF;e, and Parthe rivers at the southerly end</c:suffix>
+    <c:offset>237</c:offset>
+    <c:length>13</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/2">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/d6518dff-90a2-34f0-9b31-d1ca6e8e5060"/>
+    <c:relevance>0.318</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/131948df-a1ca-3dc7-819f-c10d4c941978">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Region"/>
+    <c:name>Eastern Europe</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/5">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/131948df-a1ca-3dc7-819f-c10d4c941978"/>
+    <!--Region: Eastern Europe; -->
+    <c:detection>[role in instigating the fall of communism in ]Eastern Europe[, through events which took place in and around]</c:detection>
+    <c:prefix>role in instigating the fall of communism in </c:prefix>
+    <c:exact>Eastern Europe</c:exact>
+    <c:suffix>, through events which took place in and around</c:suffix>
+    <c:offset>926</c:offset>
+    <c:length>14</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/6">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/131948df-a1ca-3dc7-819f-c10d4c941978"/>
+    <!--Region: Eastern Europe; -->
+    <c:detection>[role in instigating the fall of communism in ]Eastern Europe[, through events which took place in and around]</c:detection>
+    <c:prefix>role in instigating the fall of communism in </c:prefix>
+    <c:exact>Eastern Europe</c:exact>
+    <c:suffix>, through events which took place in and around</c:suffix>
+    <c:offset>926</c:offset>
+    <c:length>14</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/3">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/131948df-a1ca-3dc7-819f-c10d4c941978"/>
+    <c:relevance>0.200</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/446e602d-b752-3446-9da4-54afcdd0eda5">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Leipzig-->
+    <c:relationobject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <c:verb>situate</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/7">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/446e602d-b752-3446-9da4-54afcdd0eda5"/>
+    <!--GenericRelations: relationobject: Leipzig; verb: situate; -->
+    <c:detection>[in the federal state of Saxony, Germany. ]Leipzig is situated about 150 km south of Berlin at the confluence of the Weisse Elster[, Plei&#xDF;e, and Parthe rivers at the southerly end]</c:detection>
+    <c:prefix>in the federal state of Saxony, Germany. </c:prefix>
+    <c:exact>Leipzig is situated about 150 km south of Berlin at the confluence of the Weisse Elster</c:exact>
+    <c:suffix>, Plei&#xDF;e, and Parthe rivers at the southerly end</c:suffix>
+    <c:offset>163</c:offset>
+    <c:length>87</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/7270b0e9-63bc-3faa-a836-d1fc1081fd42">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/NaturalFeature"/>
+    <c:name>Plei&#xDF;e river</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/8">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/7270b0e9-63bc-3faa-a836-d1fc1081fd42"/>
+    <!--NaturalFeature: Pleiße river; -->
+    <c:detection>[Berlin at the confluence of the Weisse Elster, ]Plei&#xDF;e[, and Parthe rivers at the southerly end of the]</c:detection>
+    <c:prefix>Berlin at the confluence of the Weisse Elster, </c:prefix>
+    <c:exact>Plei&#xDF;e</c:exact>
+    <c:suffix>, and Parthe rivers at the southerly end of the</c:suffix>
+    <c:offset>252</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/4">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/7270b0e9-63bc-3faa-a836-d1fc1081fd42"/>
+    <c:relevance>0.318</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/comphash-1/f0dbca91-4d19-3a8b-ae21-eb71b892bc03">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Company"/>
+    <c:name>the New York Times</c:name>
+    <c:nationality>American</c:nationality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/9">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/comphash-1/f0dbca91-4d19-3a8b-ae21-eb71b892bc03"/>
+    <!--Company: the New York Times; -->
+    <c:detection>[ was included in the top 10 of cities to visit by ]the New York Times[, and ranked 39th globally out of 289 cities for]</c:detection>
+    <c:prefix> was included in the top 10 of cities to visit by </c:prefix>
+    <c:exact>the New York Times</c:exact>
+    <c:suffix>, and ranked 39th globally out of 289 cities for</c:suffix>
+    <c:offset>1631</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/5">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/comphash-1/f0dbca91-4d19-3a8b-ae21-eb71b892bc03"/>
+    <c:relevance>0.083</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/e27cba57-b409-34f0-82c8-9328f02ed0fb">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/PublishedMedium"/>
+    <c:name>the New York Times</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/10">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/e27cba57-b409-34f0-82c8-9328f02ed0fb"/>
+    <!--PublishedMedium: the New York Times; -->
+    <c:detection>[ was included in the top 10 of cities to visit by ]the New York Times[, and ranked 39th globally out of 289 cities for]</c:detection>
+    <c:prefix> was included in the top 10 of cities to visit by </c:prefix>
+    <c:exact>the New York Times</c:exact>
+    <c:suffix>, and ranked 39th globally out of 289 cities for</c:suffix>
+    <c:offset>1631</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/6">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/e27cba57-b409-34f0-82c8-9328f02ed0fb"/>
+    <c:relevance>0.083</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/er/geo/city/ralg-geo1/b4c905cc-ae95-d283-231d-12ff4c13bf20">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/City"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <!--Leipzig-->
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <c:name>Leipzig,Saxony,Germany</c:name>
+    <c:shortname>Leipzig</c:shortname>
+    <c:containedbystate>Saxony</c:containedbystate>
+    <c:containedbycountry>Germany</c:containedbycountry>
+    <c:latitude>51.34</c:latitude>
+    <c:longitude>12.38</c:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/f136dbf3-342b-3ef3-b8f6-f161c8bcedc7">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Leipzig-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <c:relationobject>a significant role</c:relationobject>
+    <c:verb>play</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/11">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/f136dbf3-342b-3ef3-b8f6-f161c8bcedc7"/>
+    <!--GenericRelations: relationsubject: Leipzig; relationobject: a significant role; verb: play; -->
+    <c:detection>[being the richest economy in the Soviet Bloc. ]Leipzig later played a significant role[ in instigating the fall of communism in Eastern]</c:detection>
+    <c:prefix>being the richest economy in the Soviet Bloc. </c:prefix>
+    <c:exact>Leipzig later played a significant role</c:exact>
+    <c:suffix> in instigating the fall of communism in Eastern</c:suffix>
+    <c:offset>846</c:offset>
+    <c:length>39</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/b61ec243-89c8-3a43-bf33-226e27c2384e">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/City"/>
+    <c:name>Berlin</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/12">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/b61ec243-89c8-3a43-bf33-226e27c2384e"/>
+    <!--City: Berlin; -->
+    <c:detection>[Leipzig is situated about 150 km south of ]Berlin[ at the confluence of the Weisse Elster, Plei&#xDF;e,]</c:detection>
+    <c:prefix>Leipzig is situated about 150 km south of </c:prefix>
+    <c:exact>Berlin</c:exact>
+    <c:suffix> at the confluence of the Weisse Elster, Plei&#xDF;e,</c:suffix>
+    <c:offset>205</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/7">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/b61ec243-89c8-3a43-bf33-226e27c2384e"/>
+    <c:relevance>0.318</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/039fcf55-b321-304c-92d3-a78941cfc399">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Leipzig-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <c:relationobject>a major urban centre</c:relationobject>
+    <c:verb>become</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/13">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/039fcf55-b321-304c-92d3-a78941cfc399"/>
+    <!--GenericRelations: relationsubject: Leipzig; relationobject: a major urban centre; verb: become; -->
+    <c:detection>[as music and publishing. After World War II, ]Leipzig became a major urban centre[ within the German Democratic Republic (East]</c:detection>
+    <c:prefix>as music and publishing. After World War II, </c:prefix>
+    <c:exact>Leipzig became a major urban centre</c:exact>
+    <c:suffix> within the German Democratic Republic (East</c:suffix>
+    <c:offset>639</c:offset>
+    <c:length>35</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/684758b9-1518-3a83-bd44-f5a1008aa6be">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/NaturalFeature"/>
+    <c:name>Elster river</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/14">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/684758b9-1518-3a83-bd44-f5a1008aa6be"/>
+    <!--NaturalFeature: Elster river; -->
+    <c:detection>[south of Berlin at the confluence of the Weisse ]Elster[, Plei&#xDF;e, and Parthe rivers at the southerly end]</c:detection>
+    <c:prefix>south of Berlin at the confluence of the Weisse </c:prefix>
+    <c:exact>Elster</c:exact>
+    <c:suffix>, Plei&#xDF;e, and Parthe rivers at the southerly end</c:suffix>
+    <c:offset>244</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/8">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/684758b9-1518-3a83-bd44-f5a1008aa6be"/>
+    <c:relevance>0.318</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/c5829390-b62c-36ba-bd4c-574161d67ace">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Leipzig-->
+    <c:relationobject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <c:verb>include</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/15">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c5829390-b62c-36ba-bd4c-574161d67ace"/>
+    <!--GenericRelations: relationobject: Leipzig; verb: include; -->
+    <c:detection>[in their quality of life survey. Also in 2010, ]Leipzig was included[ in the top 10 of cities to visit by the New York]</c:detection>
+    <c:prefix>in their quality of life survey. Also in 2010, </c:prefix>
+    <c:exact>Leipzig was included</c:exact>
+    <c:suffix> in the top 10 of cities to visit by the New York</c:suffix>
+    <c:offset>1574</c:offset>
+    <c:length>20</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/122b8d91-129a-3841-815f-06db9cab1984">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Leipzig-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <c:relationobject>an important economic centre</c:relationobject>
+    <c:verb>be</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/16">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/122b8d91-129a-3841-815f-06db9cab1984"/>
+    <!--GenericRelations: relationsubject: Leipzig; relationobject: an important economic centre; verb: be; -->
+    <c:detection>[of a modern transport infrastructure. Nowadays ]Leipzig is an important economic centre[ in Germany and has many institutions and]</c:detection>
+    <c:prefix>of a modern transport infrastructure. Nowadays </c:prefix>
+    <c:exact>Leipzig is an important economic centre</c:exact>
+    <c:suffix> in Germany and has many institutions and</c:suffix>
+    <c:offset>1230</c:offset>
+    <c:length>39</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/7dc7dbc7-c3d6-3b0e-b0f8-09cb0ce78721">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/IndustryTerm"/>
+    <c:name>transport infrastructure</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/17">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/7dc7dbc7-c3d6-3b0e-b0f8-09cb0ce78721"/>
+    <!--IndustryTerm: transport infrastructure; -->
+    <c:detection>[demolition of others, and the development of a ]modern transport infrastructure[. Nowadays Leipzig is an important economic]</c:detection>
+    <c:prefix>demolition of others, and the development of a </c:prefix>
+    <c:exact>modern transport infrastructure</c:exact>
+    <c:suffix>. Nowadays Leipzig is an important economic</c:suffix>
+    <c:offset>1188</c:offset>
+    <c:length>31</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/9">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/7dc7dbc7-c3d6-3b0e-b0f8-09cb0ce78721"/>
+    <c:relevance>0.164</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/0fadd39c-bfb1-e613-ba85-14a2df93b51b">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/ProvinceOrState"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <!--Saxony-->
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c22d0fd8-a859-31ed-97e5-481fa00646ca"/>
+    <c:name>Saxony,Germany</c:name>
+    <c:shortname>Saxony</c:shortname>
+    <c:containedbycountry>Germany</c:containedbycountry>
+    <c:latitude>51.0</c:latitude>
+    <c:longitude>13.25</c:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/3ff6b4b3-8625-3db4-916c-7d76acb51837">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Leipzig-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <c:relationobject>significant change</c:relationobject>
+    <c:verb>undergo</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/18">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/3ff6b4b3-8625-3db4-916c-7d76acb51837"/>
+    <!--GenericRelations: relationsubject: Leipzig; relationobject: significant change; verb: undergo; -->
+    <c:detection>[Church. Since the reunification of Germany, ]Leipzig has undergone significant change[ with the restoration of some historical]</c:detection>
+    <c:prefix>Church. Since the reunification of Germany, </c:prefix>
+    <c:exact>Leipzig has undergone significant change</c:exact>
+    <c:suffix> with the restoration of some historical</c:suffix>
+    <c:offset>1045</c:offset>
+    <c:length>40</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/er/geo/city/ralg-geo1/88153e7c-717e-9100-f403-c25ceef5354e">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/City"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <!--Berlin-->
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/b61ec243-89c8-3a43-bf33-226e27c2384e"/>
+    <c:name>Berlin,Germany</c:name>
+    <c:shortname>Berlin</c:shortname>
+    <c:containedbycountry>Germany</c:containedbycountry>
+    <c:latitude>52.523337</c:latitude>
+    <c:longitude>13.412687</c:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/er/geo/country/ralg-geo1/28ef36b3-5ae8-cb1f-5425-78f03408b512">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/Country"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <!--Germany-->
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062"/>
+    <c:name>Germany</c:name>
+    <c:latitude>51.0</c:latitude>
+    <c:longitude>9.0</c:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/100acefc-0992-3a63-a75b-07b464394814">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/City"/>
+    <c:name>Saxony</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/19">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/100acefc-0992-3a63-a75b-07b464394814"/>
+    <!--City: Saxony; -->
+    <c:detection>[largest being Dresden) in the federal state of ]Saxony[, Germany. Leipzig is situated about 150 km south]</c:detection>
+    <c:prefix>largest being Dresden) in the federal state of </c:prefix>
+    <c:exact>Saxony</c:exact>
+    <c:suffix>, Germany. Leipzig is situated about 150 km south</c:suffix>
+    <c:offset>146</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/10">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/100acefc-0992-3a63-a75b-07b464394814"/>
+    <c:relevance>0.324</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/er/geo/city/ralg-geo1/e53ee3df-d2b7-5955-574c-d79a8374f97c">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/City"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <!--Dresden-->
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/a579c4b0-311d-30a1-93ab-39b20650461f"/>
+    <c:name>Dresden,Saxony,Germany</c:name>
+    <c:shortname>Dresden</c:shortname>
+    <c:containedbystate>Saxony</c:containedbystate>
+    <c:containedbycountry>Germany</c:containedbycountry>
+    <c:latitude>51.05</c:latitude>
+    <c:longitude>13.7333333333</c:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/er/company/ralg-tr1r/7cf71bb9-2969-35d3-8fa1-3723bdb5958c">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Company"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <!--the New York Times-->
+    <c:subject rdf:resource="http://d.opencalais.com/comphash-1/f0dbca91-4d19-3a8b-ae21-eb71b892bc03"/>
+    <c:score>0.90000004</c:score>
+    <c:name>THE NEW YORK TIMES COMPANY</c:name>
+    <c:shortname>New York Times</c:shortname>
+    <c:ticker>NYT</c:ticker>
+    <c:symbol>NYT.N</c:symbol>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/c22d0fd8-a859-31ed-97e5-481fa00646ca">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/ProvinceOrState"/>
+    <c:name>Saxony</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/20">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c22d0fd8-a859-31ed-97e5-481fa00646ca"/>
+    <!--ProvinceOrState: Saxony; -->
+    <c:detection>[(the second largest being Dresden) in the ]federal state of Saxony[, Germany. Leipzig is situated about 150 km south]</c:detection>
+    <c:prefix>(the second largest being Dresden) in the </c:prefix>
+    <c:exact>federal state of Saxony</c:exact>
+    <c:suffix>, Germany. Leipzig is situated about 150 km south</c:suffix>
+    <c:offset>129</c:offset>
+    <c:length>23</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/11">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c22d0fd8-a859-31ed-97e5-481fa00646ca"/>
+    <c:relevance>0.324</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/752b6364-ed23-3aa8-8405-28568f70e18d">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/NaturalFeature"/>
+    <c:name>Weisse river</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/21">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/752b6364-ed23-3aa8-8405-28568f70e18d"/>
+    <!--NaturalFeature: Weisse river; -->
+    <c:detection>[150 km south of Berlin at the confluence of the ]Weisse[ Elster, Plei&#xDF;e, and Parthe rivers at the]</c:detection>
+    <c:prefix>150 km south of Berlin at the confluence of the </c:prefix>
+    <c:exact>Weisse</c:exact>
+    <c:suffix> Elster, Plei&#xDF;e, and Parthe rivers at the</c:suffix>
+    <c:offset>237</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/12">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/752b6364-ed23-3aa8-8405-28568f70e18d"/>
+    <c:relevance>0.318</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/City"/>
+    <c:name>Leipzig</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/22">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[&lt;body&gt; ]Leipzig[ with more than 540,000 inhabitants. , is the]</c:detection>
+    <c:prefix>&lt;body&gt; </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> with more than 540,000 inhabitants. , is the</c:suffix>
+    <c:offset>7</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/23">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[in the federal state of Saxony, Germany. ]Leipzig[ is situated about 150 km south of Berlin at the]</c:detection>
+    <c:prefix>in the federal state of Saxony, Germany. </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> is situated about 150 km south of Berlin at the</c:suffix>
+    <c:offset>163</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/24">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[at the southerly end of the North German Plain. ]Leipzig[ has always been a trade city, situated during]</c:detection>
+    <c:prefix>at the southerly end of the North German Plain. </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> has always been a trade city, situated during</c:suffix>
+    <c:offset>326</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/25">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[two important trade routes. At one time, ]Leipzig[ was one of the major European centres of]</c:detection>
+    <c:prefix>two important trade routes. At one time, </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> was one of the major European centres of</c:suffix>
+    <c:offset>509</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/26">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[as music and publishing. After World War II, ]Leipzig[ became a major urban centre within the German]</c:detection>
+    <c:prefix>as music and publishing. After World War II, </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> became a major urban centre within the German</c:suffix>
+    <c:offset>639</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/27">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[being the richest economy in the Soviet Bloc. ]Leipzig[ later played a significant role in instigating]</c:detection>
+    <c:prefix>being the richest economy in the Soviet Bloc. </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> later played a significant role in instigating</c:suffix>
+    <c:offset>846</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/28">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[Church. Since the reunification of Germany, ]Leipzig[ has undergone significant change with the]</c:detection>
+    <c:prefix>Church. Since the reunification of Germany, </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> has undergone significant change with the</c:suffix>
+    <c:offset>1045</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/29">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[of a modern transport infrastructure. Nowadays ]Leipzig[ is an important economic centre in Germany and]</c:detection>
+    <c:prefix>of a modern transport infrastructure. Nowadays </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> is an important economic centre in Germany and</c:suffix>
+    <c:offset>1230</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/30">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[one of the most modern zoos in Europe. In 2010 ]Leipzig[ was ranked among the top 70 world's most livable]</c:detection>
+    <c:prefix>one of the most modern zoos in Europe. In 2010 </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> was ranked among the top 70 world's most livable</c:suffix>
+    <c:offset>1437</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/31">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <!--City: Leipzig; -->
+    <c:detection>[in their quality of life survey. Also in 2010, ]Leipzig[ was included in the top 10 of cities to visit by]</c:detection>
+    <c:prefix>in their quality of life survey. Also in 2010, </c:prefix>
+    <c:exact>Leipzig</c:exact>
+    <c:suffix> was included in the top 10 of cities to visit by</c:suffix>
+    <c:offset>1574</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/13">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <c:relevance>0.803</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/a579c4b0-311d-30a1-93ab-39b20650461f">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/City"/>
+    <c:name>Dresden</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/32">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/a579c4b0-311d-30a1-93ab-39b20650461f"/>
+    <!--City: Dresden; -->
+    <c:detection>[city by population (the second largest being ]Dresden[) in the federal state of Saxony, Germany.]</c:detection>
+    <c:prefix>city by population (the second largest being </c:prefix>
+    <c:exact>Dresden</c:exact>
+    <c:suffix>) in the federal state of Saxony, Germany.</c:suffix>
+    <c:offset>113</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/14">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/a579c4b0-311d-30a1-93ab-39b20650461f"/>
+    <c:relevance>0.324</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/acb10d8e-3281-3b25-bc31-9169df4a1f12">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Country"/>
+    <c:name>East Germany</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/33">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/acb10d8e-3281-3b25-bc31-9169df4a1f12"/>
+    <!--Country: East Germany; -->
+    <c:detection>[centre within the German Democratic Republic (]East Germany[) but its cultural and economic importance]</c:detection>
+    <c:prefix>centre within the German Democratic Republic (</c:prefix>
+    <c:exact>East Germany</c:exact>
+    <c:suffix>) but its cultural and economic importance</c:suffix>
+    <c:offset>714</c:offset>
+    <c:length>12</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/34">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/acb10d8e-3281-3b25-bc31-9169df4a1f12"/>
+    <!--Country: East Germany; -->
+    <c:detection>[and economic importance declined, despite ]East Germany[ being the richest economy in the Soviet Bloc.]</c:detection>
+    <c:prefix>and economic importance declined, despite </c:prefix>
+    <c:exact>East Germany</c:exact>
+    <c:suffix> being the richest economy in the Soviet Bloc.</c:suffix>
+    <c:offset>787</c:offset>
+    <c:length>12</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/15">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/acb10d8e-3281-3b25-bc31-9169df4a1f12"/>
+    <c:relevance>0.246</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/461cf9e2-d98f-3379-8721-e41a2d49fb4b">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/NaturalFeature"/>
+    <c:name>Parthe river</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/35">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/461cf9e2-d98f-3379-8721-e41a2d49fb4b"/>
+    <!--NaturalFeature: Parthe river; -->
+    <c:detection>[ the confluence of the Weisse Elster, Plei&#xDF;e, and ]Parthe[ rivers at the southerly end of the North German]</c:detection>
+    <c:prefix> the confluence of the Weisse Elster, Plei&#xDF;e, and </c:prefix>
+    <c:exact>Parthe</c:exact>
+    <c:suffix> rivers at the southerly end of the North German</c:suffix>
+    <c:offset>264</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/16">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/461cf9e2-d98f-3379-8721-e41a2d49fb4b"/>
+    <c:relevance>0.318</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/e33c7f27-e7b6-3139-9617-d03bed31b8fb">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Leipzig-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/genericHasher-1/70e2071c-bcad-38b3-b3cf-a8a5753324c3"/>
+    <c:relationobject>a trade city</c:relationobject>
+    <c:verb>be</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/36">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/e33c7f27-e7b6-3139-9617-d03bed31b8fb"/>
+    <!--GenericRelations: relationsubject: Leipzig; relationobject: a trade city; verb: be; -->
+    <c:detection>[at the southerly end of the North German Plain. ]Leipzig has always been a trade city[, situated during the time of the Holy Roman]</c:detection>
+    <c:prefix>at the southerly end of the North German Plain. </c:prefix>
+    <c:exact>Leipzig has always been a trade city</c:exact>
+    <c:suffix>, situated during the time of the Holy Roman</c:suffix>
+    <c:offset>326</c:offset>
+    <c:length>36</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/88262139-b488-368c-a568-9e1241509f0c">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Organization"/>
+    <c:name>St. Nicholas Church</c:name>
+    <c:organizationtype>N/A</c:organizationtype>
+    <c:nationality>N/A</c:nationality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/37">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/88262139-b488-368c-a568-9e1241509f0c"/>
+    <!--Organization: St. Nicholas Church; -->
+    <c:detection>[through events which took place in and around ]St. Nicholas Church[. Since the reunification of Germany, Leipzig has]</c:detection>
+    <c:prefix>through events which took place in and around </c:prefix>
+    <c:exact>St. Nicholas Church</c:exact>
+    <c:suffix>. Since the reunification of Germany, Leipzig has</c:suffix>
+    <c:offset>988</c:offset>
+    <c:length>19</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/17">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/88262139-b488-368c-a568-9e1241509f0c"/>
+    <c:relevance>0.200</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/09bebb87-1ef5-373d-bd01-263e77470c65">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Continent"/>
+    <c:name>Europe</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Instance/38">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/09bebb87-1ef5-373d-bd01-263e77470c65"/>
+    <!--Continent: Europe; -->
+    <c:detection>[opera house and one of the most modern zoos in ]Europe[. In 2010 Leipzig was ranked among the top 70]</c:detection>
+    <c:prefix>opera house and one of the most modern zoos in </c:prefix>
+    <c:exact>Europe</c:exact>
+    <c:suffix>. In 2010 Leipzig was ranked among the top 70</c:suffix>
+    <c:offset>1421</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee/Relevance/18">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/7e34ee86-c648-3e61-a233-f613945375ee"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/09bebb87-1ef5-373d-bd01-263e77470c65"/>
+    <c:relevance>0.131</c:relevance>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,61 @@
+<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract_1>
+      a       <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+              <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Topic> .
+
+<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.essepuntato.it/2008/12/earmark#refersTo>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Topic>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.essepuntato.it/2008/12/earmark#begins>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.essepuntato.it/2008/12/earmark#ends>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_0_17_%40leipzig-abstract>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "@leipzig-abstract"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "17"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
+
+<http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse>
+      a       <http://www.essepuntato.it/2008/12/earmark#StringDocuverse> ;
+      <http://www.essepuntato.it/2008/12/earmark#hasContent>
+              "@leipzig-abstract" .
+
+<http://www.essepuntato.it/2008/12/earmark#hasContent>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .

@@ -33,6 +33,7 @@ NLP: given a text, extract terms from it
 * FRED
     - extracts tuples representing the structure of the given text
     - doesn't work with larger examples (such as dbpedia abstracts)
+    - see [leipzig-fred.ttl](./examples/leipzig-fred.ttl) for an example
 * OpenCalais
     - supports [generic relation extraction](http://www.opencalais.com/documentation/opencalais-web-service-api/api-metadata-english/generic-relation-extraction),
         which extracts subject-predicate-object triples from the text.
@@ -40,7 +41,7 @@ NLP: given a text, extract terms from it
         for example, it extracts the triple `(Leipzig, be, a trade city)`
         from the dbpedia abstract for Leipzig.
 
-        see [leipzig-opencalais.xml](./leipzig-opencalais.xml) for
+        see [leipzig-opencalais.xml](./examples/leipzig-opencalais.xml) for
         more examples. (search for `GenericRelations:` in it)
 * FOX
     - extracts instances from dbpedia
