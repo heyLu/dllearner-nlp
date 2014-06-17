@@ -43,6 +43,9 @@ NLP: given a text, extract terms from it
 
         see [leipzig-opencalais.xml](./examples/leipzig-opencalais.xml) for
         more examples. (search for `GenericRelations:` in it)
+* alchemyapi
+    - supports [relation extraction[(http://www.alchemyapi.com/api/relation-extraction/)
+        also returning SPO triples and additional information from the text.
 * FOX
     - extracts instances from dbpedia
     - often enabling one of the "Fox Light" options improves the
@@ -55,10 +58,12 @@ NLP: given a text, extract terms from it
     - is able to use a number of different tools, but using the
         same output format for all of them
 
-Only FRED and OpenCalais support semantic analysis. Fred often generates
-classes on its own, which requires mapping them back to something we can
-use or ignoring them. OpenCalais does not generate fixed relations, it
-just returns triples in SPO-form.
+FRED, OpenCalais and AlchemyAPI support semantic analysis. Fred often
+generates classes on its own, which requires mapping them back to
+something we can use or ignoring them. OpenCalais does not generate fixed
+relations, it just returns triples in SPO-form. None of the tools use
+relations from ontologies, they only extract verbs from the text which
+would have to be mapped to relations later on.
 
 Even though NERD only does entity extraction, it might still be useful
 because it allows us to use a number of different apis.
