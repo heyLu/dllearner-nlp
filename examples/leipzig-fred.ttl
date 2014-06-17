@@ -1,46 +1,2025 @@
-<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract_1>
-      a       <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract> ;
-      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
-              <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Topic> .
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_176_181_about>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "about"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Destination> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "176"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "181"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
 
-<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract>
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_530_545_european+centre>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "European Centre"^^<http://www.w3.org/2001/XMLSchema#string> , "European centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#EuropeanCentre> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "530"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "545"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_31_43_inhabitants.>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "inhabitants."^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#inhabitants._1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Inhabitants.> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "31"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "43"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_586_588_as>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "as"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#as> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "586"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "588"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#intersection_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Intersection> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#intersectionOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Via_regia> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Via_imperii> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_517_519_of>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#tradeCityOf> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "517"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "519"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Inhabitants.>
       <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
               <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
 
-<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_426_428_of>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#intersectionOf> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "426"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "428"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://dbpedia.org/resource/Weisse_Elster>
+      a       <http://schema.org/RiverBodyOfWater> , <http://schema.org/Place> , <http://schema.org/BodyOfWater> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_574_580_fields>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "fields"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#field_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Field> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "574"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "580"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS> .
+
+<http://dbpedia.org/resource/Berlin>
+      a       <http://schema.org/City> , <http://schema.org/Place> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#km_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Km> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#south_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_365_371_during>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "during"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#during> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "365"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "371"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#confluenceOf>
       a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://www.essepuntato.it/2008/12/earmark#refersTo>
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_524_538_major+european>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "major European"^^<http://www.w3.org/2001/XMLSchema#string> , "Major European"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MajorEuropean> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "524"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "538"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.w3.org/2002/07/owl#equivalentClass>
       a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Topic>
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#kmSouthOf>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#timeOf>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_277_282_south>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "South"^^<http://www.w3.org/2001/XMLSchema#string> , "south"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#South> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "277"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "282"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Intersection>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://dbpedia.org/resource/Saxony>
+      a       <http://schema.org/Place> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_406_408_at>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "at"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Destination> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "406"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "408"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_136_138_of>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#federalStateOf> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "136"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "138"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#route_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ImportantTradeRoute> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue>
+              "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_474_485_trade+route>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Trade Route"^^<http://www.w3.org/2001/XMLSchema#string> , "trade route"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeRoute> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "474"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "485"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_458_459_%2C>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              ","^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#rel> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "458"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "459"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#timeOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Holy_roman_empire> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#tradeCityOf>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://dbpedia.org/resource/Germany>
+      a       <http://schema.org/Place> , <http://schema.org/Country> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Confluence>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#dresden_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Dresden> ;
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#patient>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#second_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_189_194_south>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "south"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#south_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#South> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "189"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "194"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_46_48_is>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "is"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#eq> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "46"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "48"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_524_545_major+european+centre>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Major European Centre"^^<http://www.w3.org/2001/XMLSchema#string> , "major European centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MajorEuropeanCentre> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "524"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "545"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Via_imperii>
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://xmlns.com/foaf/0.1/Organisation> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#route_1> ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <http://dbpedia.org/resource/Via_Imperii> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#state_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#FederalState> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Federal> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#federalStateOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Saxony> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Field>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_212_222_confluence>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "confluence"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#confluence_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Confluence> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "212"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "222"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_311_316_plain>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Plain"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Plain> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "311"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "316"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MajorEuropeanCentre>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#EuropeanCentre> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MajorEuropean> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_66_68_by>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "by"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#largestCityBy> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "66"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "68"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_464_473_important>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "important"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Important> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "464"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "473"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_53_65_largest+city>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "largest city"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LargestCity> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "53"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "65"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_291_293_of>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#southerlyEndOf> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "291"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "293"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NorthGerman>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#German> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#North> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#federalStateOf>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Saxony>
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://dbpedia.org/ontology/Place> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Germany> ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <http://dbpedia.org/resource/Saxony> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_287_290_end>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "end"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#end_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#End> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "287"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "290"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_245_250_Pleie>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Pleie"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Pleie> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "245"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "250"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#European>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
       <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
               <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
 
-<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_344_354_trade+city>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "trade city"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeCity> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "344"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "354"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Parthe>
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://xmlns.com/foaf/0.1/Organisation> ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <http://dbpedia.org/resource/Parthe> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#in>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Pleie>
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://dbpedia.org/ontology/Place> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_53_60_largest>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "largest"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Largest> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%5Elargest> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "53"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "60"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJS> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Federal>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://dbpedia.org/resource/Leipzig>
+      a       <http://schema.org/Place> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_102_104_in>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "in"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#in> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "102"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "104"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_145_146_%2C>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              ","^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#rel> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "145"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "146"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Weisse_elster>
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://xmlns.com/foaf/0.1/Organisation> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Pleie> ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <http://dbpedia.org/resource/Weisse_Elster> .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#SoutherlyEnd>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#End> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Southerly> .
+
+<http://dbpedia.org/resource/Parthe>
+      a       <http://schema.org/RiverBodyOfWater> , <http://schema.org/Place> , <http://schema.org/BodyOfWater> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#majorEuropeanCentreOf>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#South>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_563_570_culture>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "culture"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#learning_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Culture> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "563"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "570"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_464_479_important+trade>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "important trade"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#trade_2> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ImportantTrade> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "464"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "479"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#inhabitants._1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Inhabitants.> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue>
+              "540000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Than> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#More> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Centre>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_243_244_%2C>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              ","^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#rel> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "243"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "244"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ImportantTrade>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Trade> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Important> .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Dresden>
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v> ;
+      <http://www.w3.org/2002/07/owl#equivalentClass>
+              <http://dbpedia.org/resource/Dresden> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Via_regia>
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://xmlns.com/foaf/0.1/Organisation> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#route_1> ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <http://dbpedia.org/resource/Via_Regia> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#field_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Field> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#as>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#music_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situate_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situate> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#at>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#confluence_1> ;
+      <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Destination>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#south_1> ;
+      <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_318_325_Leipzig>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Leipzig"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeCity> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "318"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "325"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_156_163_Leipzig>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Leipzig"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeCity> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "156"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "163"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_350_354_city>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "city"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#city_2> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#City> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "350"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "354"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Major>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#City>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_530_538_European>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "European"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#European> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "530"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "538"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#German>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Holy_roman_empire>
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://xmlns.com/foaf/0.1/Organisation> ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <http://dbpedia.org/resource/Holy_Roman_Empire> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Second>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Than>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_277_286_southerly>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "southerly"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Southerly> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "277"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "286"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_277_290_southerly+end>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "southerly end"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#end_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#SoutherlyEnd> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "277"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "290"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_381_383_of>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#timeOf> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "381"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "383"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_464_486_important+trade+routes>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "important trade routes"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#route_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ImportantTradeRoute> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "464"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "486"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_304_310_german>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "German"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#German> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "304"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "310"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_356_364_situated>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "situated"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situate_2> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situate> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "356"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "364"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#southerlyEndOf>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
       a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 <http://www.essepuntato.it/2008/12/earmark#begins>
       a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://www.essepuntato.it/2008/12/earmark#ends>
-      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_92_99_largest>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "largest"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Largest> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%5Elargest> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "92"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "99"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJS> .
 
 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
       a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_0_17_%40leipzig-abstract>
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#intersectionOf>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://dbpedia.org/resource/Dresden>
+      a       <http://schema.org/City> , <http://schema.org/Place> .
+
+<http://www.ontologydesignpatterns.org/ont/vn/abox/role/Destination>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#largestAmong>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#FederalState>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#State> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Federal> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_530_546_European+centres>
       a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
       <http://www.w3.org/2000/01/rdf-schema#label>
-              "@leipzig-abstract"^^<http://www.w3.org/2001/XMLSchema#string> ;
+              "European centres"^^<http://www.w3.org/2001/XMLSchema#string> ;
       <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
-              <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract_1> ;
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#centre_1> ;
       <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
-              <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Leipzig-abstract> ;
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#EuropeanCentre> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "530"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "546"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_547_549_of>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#majorEuropeanCentreOf> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "547"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "549"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_298_316_north+german+plain>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "North German Plain"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NorthGermanPlain> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "298"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "316"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#River>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://dbpedia.org/resource/Holy_Roman_Empire>
+      a       <http://schema.org/Place> , <http://schema.org/Country> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NorthGermanPlain>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#GermanPlain> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NorthGerman> ;
+      <http://www.w3.org/2002/07/owl#equivalentClass>
+              <http://dbpedia.org/resource/North_German_Plain> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_539_545_centre>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Centre"^^<http://www.w3.org/2001/XMLSchema#string> , "centre"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Centre> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "539"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "545"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Trade>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_1>
+      a       <http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#Situation> ;
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situate_2> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Always> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_198_204_Berlin>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Berlin"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Berlin> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "198"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "204"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#End>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LargestCity>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#City> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Largest> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeRoute>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Route> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Trade> .
+
+<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Thing>
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Second> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Largest>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_464_485_important+trade+route>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Important Trade Route"^^<http://www.w3.org/2001/XMLSchema#string> , "important trade route"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ImportantTradeRoute> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "464"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "485"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#largestCityBy>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse>
+      a       <http://www.essepuntato.it/2008/12/earmark#StringDocuverse> ;
+      <http://www.essepuntato.it/2008/12/earmark#hasContent>
+              "Leipzig with more than 540,000 inhabitants. , is the largest city by population (the second largest being Dresden) in the federal state of Saxony, Germany. Leipzig is situated about 150 km south of Berlin at the confluence of the Weisse Elster, Pleie, and Parthe rivers at the southerly end of the North German Plain. Leipzig has always been a trade city, situated during the time of the Holy Roman Empire at the intersection of the Via Regia and Via Imperii, two important trade routes. At one time, Leipzig was one of the major European centres of learning and culture in fields such as music and publishing." .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#river_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#River> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Parthe> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#at>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#end_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Germany>
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://dbpedia.org/ontology/Place> ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <http://dbpedia.org/resource/Germany> .
+
+<http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#Situation>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situation> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_530_538_european>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "European"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#European> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "530"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "538"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_589_594_music>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "music"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#music_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Music> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "589"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "594"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ImportantTradeRoute>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeRoute> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ImportantTrade> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_186_188_km>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "km"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#km_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Km> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "186"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "188"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#confluence_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Confluence> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#confluenceOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Weisse_elster> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#river_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_447_458_Via+Imperii>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Via Imperii"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Via_imperii> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "447"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "458"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_555_557_in>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "in"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#in> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "555"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "557"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Berlin>
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://dbpedia.org/ontology/Place> ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <http://dbpedia.org/resource/Berlin> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#with>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#learning_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Culture> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Learning> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#North>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_80_81_%28>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "("^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#rel> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "80"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "81"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Route>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_195_197_of>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#kmSouthOf> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "195"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "197"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_599_609_publishing>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "publishing"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#music_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Publishing> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "599"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "609"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MajorEuropean>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#European> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Major> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_311_316_Plain>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Plain"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#plain_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Plain> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "311"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "316"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#during>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_122_135_federal+state>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "federal state"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#state_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#FederalState> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "122"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "135"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#GermanPlain>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Plain> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#German> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#More>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_147_154_Germany>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Germany"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Germany> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "147"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "154"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Music>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_147_153_german>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "German"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#German> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "147"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "153"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Population>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.essepuntato.it/2008/12/earmark#refersTo>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_139_145_Saxony>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Saxony"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Saxony> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "139"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "145"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#trade_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Trade> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> .
+
+<http://www.essepuntato.it/2008/12/earmark#ends>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#at>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.w3.org/2000/01/rdf-schema#subClassOf>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_230_243_Weisse+Elster>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Weisse Elster"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Weisse_elster> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "230"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "243"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_304_310_German>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "German"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#German> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "304"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "310"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Km>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_130_135_state>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "state"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#state_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#State> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "130"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "135"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situate_2>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situate> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#during>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_1> ;
+      <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Destination>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#intersection_1> ;
+      <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_205_207_at>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "at"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#at> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "205"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "207"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_524_529_major>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "major"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Major> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "524"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "529"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#music_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Music> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Publishing> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#EuropeanCentre>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Centre> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#European> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#population_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Population> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#second_1> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#in>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#state_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_474_479_trade>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "trade"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#trade_2> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Trade> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "474"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "479"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_186_194_km+south>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "km south"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#south_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#KmSouth> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "186"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "194"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#trade_2>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Trade> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#route_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_298_303_North>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "North"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#North> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "298"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "303"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_2>
+      a       <http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#Situation> ;
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#music_1> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#field_1> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#learning_1> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#at>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_2> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_0_7_Leipzig>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Leipzig"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeCity> ;
       <http://www.essepuntato.it/2008/12/earmark#begins>
               "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
       <http://www.essepuntato.it/2008/12/earmark#ends>
+              "7"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#as>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_330_336_always>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "always"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Always> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "330"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "336"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#RB> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_8_12_with>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "with"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#with> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "8"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "12"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Publishing>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situate>
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v> ;
+      <http://www.w3.org/2002/07/owl#equivalentClass>
+              <http://www.ontologydesignpatterns.org/ont/vn/data/Situate_9010000> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_69_79_population>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "population"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#population_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Population> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "69"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "79"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_18_22_than>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "than"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Than> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "18"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "22"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_304_316_german+plain>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "German Plain"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#GermanPlain> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "304"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "316"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/vn/abox/role/Theme>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_488_490_At>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "At"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#at> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "488"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "490"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_480_485_route>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "route"^^<http://www.w3.org/2001/XMLSchema#string> , "Route"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Route> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "480"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "485"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeCity>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LargestCity> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#City> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Trade> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Plain>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_413_425_intersection>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "intersection"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#intersection_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Intersection> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "413"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "425"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_270_272_at>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "at"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#at> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "270"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "272"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_495_499_time>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "time"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_2> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "495"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "499"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_550_558_learning>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "learning"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#learning_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Learning> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "550"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "558"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LargestCity> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#City> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeCity> ;
+      <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+              <http://xmlns.com/foaf/0.1/Organisation> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue>
+              "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Largest> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#largestAmong>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#City> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#largestCityBy>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#population_1> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#tradeCityOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#centre_1> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#with>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#inhabitants._1> ;
+      <http://www.w3.org/2002/07/owl#sameAs>
+              <http://dbpedia.org/resource/Leipzig> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_223_225_of>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#confluenceOf> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "223"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "225"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Important>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_263_269_rivers>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "rivers"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#river_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#River> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "263"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "269"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_13_17_more>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "more"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#More> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "13"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
               "17"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJR> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#KmSouth>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#South> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Km> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#end_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#SoutherlyEnd> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Southerly> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#southerlyEndOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#plain_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_501_508_Leipzig>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Leipzig"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#TradeCity> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "501"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "508"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#State>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#south_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#KmSouth> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue>
+              "150"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#kmSouthOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Berlin> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_167_175_situated>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "situated"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situate_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situate> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "167"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "175"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Culture>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#plain_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NorthGermanPlain> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#German> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#North> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_480_486_routes>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "routes"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#route_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Route> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "480"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "486"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#centre_1>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MajorEuropeanCentre> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Major> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#European> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#in>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#field_1> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#majorEuropeanCentreOf>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#learning_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Southerly>
+      a       <http://www.w3.org/2002/07/owl#Class> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_298_303_north>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "North"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#North> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "298"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "303"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_524_546_major+European+centres>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "major European centres"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#centre_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MajorEuropeanCentre> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "524"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "546"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_388_405_Holy+Roman+Empire>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Holy Roman Empire"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Holy_roman_empire> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "388"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "405"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_298_310_north+german>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "North German"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NorthGerman> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "298"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "310"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#patient>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_85_91_second>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "second"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#second_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Second> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "85"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "91"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_106_113_Dresden>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Dresden"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#dresden_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Dresden> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "106"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "113"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_433_442_Via+Regia>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Via Regia"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Via_regia> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "433"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "442"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_539_546_centres>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "centres"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#centre_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Centre> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "539"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "546"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_344_349_trade>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "trade"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#trade_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Trade> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "344"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "349"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_122_129_federal>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "federal"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Federal> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "122"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "129"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
       <http://www.essepuntato.it/2008/12/earmark#refersTo>
               <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
       <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
@@ -49,13 +2028,102 @@
 <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
       a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse>
-      a       <http://www.essepuntato.it/2008/12/earmark#StringDocuverse> ;
-      <http://www.essepuntato.it/2008/12/earmark#hasContent>
-              "@leipzig-abstract" .
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_376_380_time>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "time"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "376"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "380"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
 
 <http://www.essepuntato.it/2008/12/earmark#hasContent>
       a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
-      a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Always>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Learning>
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_61_65_city>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "city"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Leipzig> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#City> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "61"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "65"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+              <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_298_316_North+German+Plain>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "North German Plain"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#plain_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#NorthGermanPlain> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "298"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "316"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_2>
+      a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue>
+              "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_256_262_Parthe>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Parthe"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Parthe> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "256"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "262"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#second_1>
+      a       <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Thing> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Second> ;
+      <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Largest> ;
+      <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#largestAmong>
+              <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#Thing> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_304_316_German+Plain>
+      a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "German Plain"^^<http://www.w3.org/2001/XMLSchema#string> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#plain_1> ;
+      <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#GermanPlain> ;
+      <http://www.essepuntato.it/2008/12/earmark#begins>
+              "304"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#ends>
+              "316"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+      <http://www.essepuntato.it/2008/12/earmark#refersTo>
+              <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
