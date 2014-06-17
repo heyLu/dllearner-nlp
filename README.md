@@ -33,6 +33,15 @@ NLP: given a text, extract terms from it
 * FRED
     - extracts tuples representing the structure of the given text
     - doesn't work with larger examples (such as dbpedia abstracts)
+* OpenCalais
+    - supports [generic relation extraction](http://www.opencalais.com/documentation/opencalais-web-service-api/api-metadata-english/generic-relation-extraction),
+        which extracts subject-predicate-object triples from the text.
+
+        for example, it extracts the triple `(Leipzig, be, a trade city)`
+        from the dbpedia abstract for Leipzig.
+
+        see [leipzig-opencalais.xml](./leipzig-opencalais.xml) for
+        more examples. (search for `GenericRelations:` in it)
 * FOX
     - extracts instances from dbpedia
     - often enabling one of the "Fox Light" options improves the
@@ -45,9 +54,10 @@ NLP: given a text, extract terms from it
     - is able to use a number of different tools, but using the
         same output format for all of them
 
-FRED is the only tool that does semantic analysis, but it often generates
-classes on its own. Creating a custom analyzer might be a better way
-to extract tuples from text.
+Only FRED and OpenCalais support semantic analysis. Fred often generates
+classes on its own, which requires mapping them back to something we can
+use or ignoring them. OpenCalais does not generate fixed relations, it
+just returns triples in SPO-form.
 
 Even though NERD only does entity extraction, it might still be useful
 because it allows us to use a number of different apis.
