@@ -1,4 +1,7 @@
 lib
+target
 
 .idea
+.lein*
+.nrepl*
 dllearner-nlp.iml
