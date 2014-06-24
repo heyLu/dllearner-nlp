@@ -25,18 +25,19 @@ there seems to be a cache for documents and annotations. adding a document with 
 (defn add-document [text]
   (:body (api-request :post "document" {:text text})))
 
+(defn singleton-map [key val]
+  (if (map? val)
+    val
+    {key val}))
+
 (defn annotate-document [extractor id-or-map]
   (assert api-extractors extractor)
-  (let [id-or-map (if (map? id-or-map)
-                    id-or-map
-                    {:idDocument id-or-map})
+  (let [id-or-map (singleton-map :idDocument id-or-map)
         params (assoc id-or-map :extractor extractor)]
     (:body (api-request :post "annotation" params))))
 
 (defn get-annotation [id-or-map]
-  (let [id-or-map (if (map? id-or-map)
-                    id-or-map
-                    {:idAnnotation id-or-map})]
+  (let [id-or-map (singleton-map :idAnnotation id-or-map)]
     (:body (api-request :get "entity" id-or-map))))
 
 (defn annotate-text* [text & [extractor]]
