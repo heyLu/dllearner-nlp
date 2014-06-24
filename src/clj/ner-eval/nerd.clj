@@ -23,9 +23,9 @@
   (assert api-extractors extractor)
   (let [id-or-map (if (map? id-or-map)
                     id-or-map
-                    {:extractor extractor
-                     :idDocument id-or-map})]
-    (:body (api-request :post "annotate" id-or-map))))
+                    {:idDocument id-or-map})
+        params (assoc id-or-map :extractor extractor)]
+    (:body (api-request :post "annotation" params))))
 
 (defn get-annotation [id-or-map]
   (let [id-or-map (if (map? id-or-map)
