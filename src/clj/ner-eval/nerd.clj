@@ -1,5 +1,11 @@
 (ns ner-eval.nerd
-  "Tiny binding to the NERD api."
+  "Tiny binding to the NERD api.
+
+# Notes
+
+there seems to be a cache for documents and annotations. adding a document with the same text multiple times returns the same `idDocument`. the java library also adds `cache` and `force` parameters to annotation requests [1], which may or may not actually do anything.
+
+[1]: https://github.com/giusepperizzo/nerd4java/blob/master/src/fr/eurecom/nerd/client/NERDResult.java#L129-L130"
   (:require [clj-http.client :as http]))
 
 (def api-key "120rj2n2stnmquhgcgim11ucrgd68jh4")
