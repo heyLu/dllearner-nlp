@@ -29,15 +29,35 @@
 - with abstracts: {:name \"...\", :abstract \"...\"} (maybe also comment?)
 - entity extraction: vector of maps, name, abstract, entities:
     * entities: `[{:text \"...\", :start 0, :end 10, :entity \"<url>\"}]`"
-  (:require [clj-http.client :as http]))
+  (:require [clj-http.client :as http]
+            [clojure.string :as str]
+            [clojure.edn :as edn]))
+
+(defn simple-tsv [str]
+  (mapv (fn [line]
+          (mapv edn/read-string (str/split line #"\t")))
+        (str/split str #"\n")))
 
 (defn dbpedia-query
   "send a sparql query to the dbpedia endpoint returning a vector of result tuples."
   [sparql-str]
-  nil)
+  (-> (http/get "http://dbpedia.org/sparql"
+                {:query-params {:query sparql-str
+                                :format "text/tab-separated-values"}})
+      :body
+      simple-tsv))
 
 (defn query-cities [n]
   (str "
-SELECT ?city
-WHERE { ?city rdf:type dbp:City . }
-LIMIT " n))
+select ?city ?abstract
+where {
+  ?city #rdf:type dbpedia-owl:Town ;
+        dbpedia-owl:country dbpedia:Germany ;
+        dbpedia-owl:abstract ?abstract ;
+        dbpedia-owl:populationTotal ?population .
+  filter (lang(?abstract) = \"de\")
+  optional { ?city dbpedia-owl:capital ?capital }
+  filter (!bound(?capital))
+}
+order by desc(?population)
+limit " n))
