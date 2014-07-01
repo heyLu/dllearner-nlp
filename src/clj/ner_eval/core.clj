@@ -34,7 +34,8 @@
             [clojure.edn :as edn]
 
             [ner-eval.nerd :as nerd]
-            [ner-eval.fox :as fox]))
+            [ner-eval.fox :as fox]
+            [ner-eval.dbpedia-spotlight :as spotlight]))
 
 (defn simple-tsv [str]
   (mapv (fn [line]
@@ -68,5 +69,6 @@ limit " n))
 (defn annotate-text [extractor text & args]
   (let [ann-fn (case extractor
                  :nerd nerd/annotate-text*
-                 :fox fox/annotate-text*)]
+                 :fox fox/annotate-text*
+                 :spotlight spotlight/annotate-text*)]
     (apply ann-fn text args)))
