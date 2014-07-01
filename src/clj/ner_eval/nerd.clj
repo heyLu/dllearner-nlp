@@ -40,15 +40,15 @@ there seems to be a cache for documents and annotations. adding a document with 
   (let [id-or-map (singleton-map :idAnnotation id-or-map)]
     (:body (api-request :get "entity" id-or-map))))
 
+(defn normalize [{:keys [label uri startChar endChar]}]
+  {:text label,
+   :entity uri,
+   :start startChar,
+   :end endChar})
+
 (defn annotate-text* [text & [extractor]]
   (let [extractor (or extractor "combined")]
     (->> (add-document text)
          (annotate-document extractor)
          (get-annotation)
          (map normalize))))
-
-(defn normalize [{:keys [label uri startChar endChar]}]
-  {:text label,
-   :entity uri,
-   :start startChar,
-   :end endChar})
