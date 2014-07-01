@@ -1,0 +1,35 @@
+(ns ner-eval.fox
+  (:require [clj-http.client :as http]
+            [cheshire.core :as json]
+            [clojure.edn :as edn]))
+
+(def api-base-url "http://139.18.2.164:4444/api")
+
+(defn fox-ld->anns [ld]
+  (vec (mapcat (fn [ann]
+                 (let [{:strs [beginIndex endIndex means ann:body]} ann]
+                   (if (vector? beginIndex)
+                     (map #(hash-map :text ann:body :entity means :start %1 :end %2)
+                          (sort (map edn/read-string beginIndex))
+                          (sort (map edn/read-string endIndex)))
+                     [{:text ann:body
+                       :entity means
+                       :start (edn/read-string beginIndex)
+                       :end (edn/read-string  endIndex)}])))
+               (get ld "@graph"))))
+
+(defn annotate-text [text]
+  (->
+   (http/post api-base-url
+              {:query-params {:input text
+                              :type "text"
+                              :task "NER"
+                              :output "JSON-LD"
+                              :foxlight "org.aksw.fox.nertools.NEROpenNLP"}
+               :content-type :x-www-form-urlencoded
+               :throw-entire-message? true
+               :as :json})
+   :body first :output
+   java.net.URLDecoder/decode
+   json/parse-string
+   fox-ld->anns))
