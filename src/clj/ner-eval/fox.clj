@@ -18,7 +18,7 @@
                        :end (edn/read-string  endIndex)}])))
                (get ld "@graph"))))
 
-(defn annotate-text [text]
+(defn annotate-text* [text]
   (->
    (http/post api-base-url
               {:query-params {:input text
