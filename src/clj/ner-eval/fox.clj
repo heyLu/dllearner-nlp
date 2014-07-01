@@ -18,14 +18,23 @@
                        :end (edn/read-string  endIndex)}])))
                (get ld "@graph"))))
 
-(defn annotate-text* [text]
+(defn foxlight->str [foxlight]
+  (let [base "org.aksw.fox.nertools.NER"]
+    (case foxlight
+      :opennlp (str base "OpenNLP")
+      :illinois (str base "IllinoisExtended")
+      :stanford (str base "Stanford")
+      :balie (str base "Balie")
+      "OFF")))
+
+(defn annotate-text* [text & [foxlight]]
   (->
    (http/post api-base-url
               {:query-params {:input text
                               :type "text"
                               :task "NER"
                               :output "JSON-LD"
-                              :foxlight "org.aksw.fox.nertools.NEROpenNLP"}
+                              :foxlight (foxlight->str foxlight)}
                :content-type :x-www-form-urlencoded
                :throw-entire-message? true
                :as :json})
