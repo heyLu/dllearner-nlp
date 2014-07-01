@@ -66,7 +66,16 @@ where {
 order by desc(?population)
 limit " n))
 
-(defn annotate-text [extractor text & args]
+(defn annotate-text
+  "Annotate the entities in the text using external NER tools.
+
+  - extractor: `:fox`, `:nerd` or `:spotlight`
+  - text: the text to annotate
+  - args: options specific to the NER tool used
+    * `:fox`: ner library used: `:opennlp`, `:illinois`, `:stanford` or `:balie`
+    * `:nerd`: any of the strings combined, alchemyapi, datatxt, dbspotlight, lupedia, opencalais, saplo, semitags, textrazor, thd, wikimeta, yahoo or zemanta
+    * `:spotlight`: a map of parameters to pass to dbpedia spotlight, e.g. `{:lang \"de\", :confidence 0.5}`"
+  [extractor text & args]
   (let [ann-fn (case extractor
                  :nerd nerd/annotate-text*
                  :fox fox/annotate-text*

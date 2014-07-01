@@ -26,6 +26,19 @@ NLP: given a text, extract terms from it
 * extracting facts from text, similar to extracting axioms, but
     with a different grammar and patterns to look out for
 
+# Usage
+
+    # install [Leiningen](https://github.com/technomancy/leiningen)
+    $ lein repl
+    > (use 'ner-tools.core)
+    ...
+    > (annotate-text :fox "Leipzig ist eine Stadt in Deutschland")
+    [{:text "Germany", :entity "http://dbpedia.org/resource/Germany", :start 21, :end 28}
+     {:text "Leipzig", :entity "http://dbpedia.org/resource/Leipzig", :start 0, :end 7}]
+
+You can look up the documentation for `annotate-text` by evaluating
+`(clojure.repl/doc annotate-text)` in the repl.
+
 # Evaluation:
 
 * DBpedia Spotlight
