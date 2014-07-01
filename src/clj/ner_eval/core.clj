@@ -31,7 +31,10 @@
     * entities: `[{:text \"...\", :start 0, :end 10, :entity \"<url>\"}]`"
   (:require [clj-http.client :as http]
             [clojure.string :as str]
-            [clojure.edn :as edn]))
+            [clojure.edn :as edn]
+
+            [ner-eval.nerd :as nerd]
+            [ner-eval.fox :as fox]))
 
 (defn simple-tsv [str]
   (mapv (fn [line]
@@ -61,3 +64,9 @@ where {
 }
 order by desc(?population)
 limit " n))
+
+(defn annotate-text [extractor text & args]
+  (let [ann-fn (case extractor
+                 :nerd nerd/annotate-text*
+                 :fox fox/annotate-text*)]
+    (apply ann-fn text args)))
