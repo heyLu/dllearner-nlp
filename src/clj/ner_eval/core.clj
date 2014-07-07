@@ -59,7 +59,7 @@ where {
         dbpedia-owl:country dbpedia:Germany ;
         dbpedia-owl:abstract ?abstract ;
         dbpedia-owl:populationTotal ?population .
-  filter (lang(?abstract) = \"de\")
+  filter (lang(?abstract) = \"en\")
   optional { ?city dbpedia-owl:capital ?capital }
   filter (!bound(?capital))
 }
