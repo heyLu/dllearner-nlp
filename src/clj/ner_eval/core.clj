@@ -96,21 +96,18 @@ limit " n)))
                  :spotlight spotlight/annotate-text*)]
     (apply ann-fn text args)))
 
-; adapted from clojure.core/pmap
-(defn pmap2 [n f coll]
-  (let [rets (map #(future (f %)) coll)
-        step (fn step [[x & xs :as vs] fs]
-               (lazy-seq
-                (if-let [s (seq fs)]
-                  (cons (deref x) (step xs (rest s)))
-                  (map deref vs))))]
-    (step rets (drop n rets))))
-
 (defn annotate-texts [n extractor texts & args]
-  (vec
-   (pmap2 n
-          (fn [text]
-            (let [short-text (apply str (take 10 text))]
-              (println "annotating " short-text)
-              (apply annotate-text extractor text args)))
-          texts)))
+  (let [anns (atom {})
+        total (count texts)
+        processed (atom total)
+        semaphore (java.util.concurrent.Semaphore. n)]
+    (doseq [text texts]
+      (future
+        (let [ann (try
+                    (apply annotate-text extractor text args)
+                    (catch Throwable c
+                      nil))]
+          (println "processed" (swap! processed inc) "of" total
+                   (if ann "successfully" "with error"))
+          (swap! anns assoc text ann))))
+    anns))
