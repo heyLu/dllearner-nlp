@@ -99,7 +99,7 @@ limit " n)))
 (defn annotate-texts [n extractor texts & args]
   (let [anns (atom {})
         total (count texts)
-        processed (atom total)
+        processed (atom 0)
         semaphore (java.util.concurrent.Semaphore. n)]
     (doseq [text texts]
       (future
