@@ -100,6 +100,7 @@ limit " n)))
   (let [anns (atom {})
         total (count texts)
         processed (atom 0)
+        stats (atom {:total total, :success 0, :error 0})
         semaphore (java.util.concurrent.Semaphore. n)]
     (doseq [text texts]
       (future
@@ -107,7 +108,6 @@ limit " n)))
                     (apply annotate-text extractor text args)
                     (catch Throwable c
                       nil))]
-          (println "processed" (swap! processed inc) "of" total
-                   (if ann "successfully" "with error"))
+          (swap! stats update-in [(if ann :success :error)] inc)
           (swap! anns assoc text ann))))
-    anns))
+    [anns stats]))
