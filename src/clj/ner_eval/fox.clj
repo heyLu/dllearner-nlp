@@ -38,7 +38,7 @@
                :content-type :x-www-form-urlencoded
                :throw-entire-message? true
                :as :json})
-   :body first :output
+   :body :output
    java.net.URLDecoder/decode
    json/parse-string
    fox-ld->anns))
