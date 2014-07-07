@@ -66,6 +66,20 @@ where {
 order by desc(?population)
 limit " n))
 
+(defn query-entities-of-class [class n]
+  (let [class (if (keyword? class)
+                (str (namespace class) ":" (name class))
+                class)]
+    (str "
+select ?entity ?abstract ?country
+where {
+  ?entity rdf:type " class " ;
+          dbpedia-owl:country ?country ;
+          dbpedia-owl:abstract ?abstract .
+  filter (lang(?abstract) = \"en\")
+}
+limit " n)))
+
 (defn annotate-text
   "Annotate the entities in the text using external NER tools.
 
