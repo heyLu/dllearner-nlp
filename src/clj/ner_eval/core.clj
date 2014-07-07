@@ -55,7 +55,7 @@
   (str "
 select ?city ?abstract
 where {
-  ?city #rdf:type dbpedia-owl:Town ;
+  ?city rdf:type dbpedia-owl:Town ;
         dbpedia-owl:country dbpedia:Germany ;
         dbpedia-owl:abstract ?abstract ;
         dbpedia-owl:populationTotal ?population .
