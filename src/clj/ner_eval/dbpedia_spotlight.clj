@@ -4,7 +4,8 @@
 
 (defn api-base-url [lang]
   (case lang
-    "en" "http://spotlight.dbpedia.org/rest/"
+    ;"en" "http://spotlight.dbpedia.org/rest/"
+    "en" "http://spotlight.sztaki.hu:2222/rest/"
     ;"de" "http://de.dbpedia.org/spotlight/rest/"
     "de" "http://spotlight.sztaki.hu:2226/rest/"))
 
