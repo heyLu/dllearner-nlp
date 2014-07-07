@@ -40,7 +40,7 @@
 (defn simple-tsv [str]
   (mapv (fn [line]
           (mapv edn/read-string (str/split line #"\t")))
-        (str/split str #"\n")))
+        (rest (str/split str #"\n"))))
 
 (defn dbpedia-query
   "send a sparql query to the dbpedia endpoint returning a vector of result tuples."
