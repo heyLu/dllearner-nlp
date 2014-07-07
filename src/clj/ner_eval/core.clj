@@ -111,3 +111,27 @@ limit " n)))
           (swap! stats update-in [(if ann :success :error)] inc)
           (swap! anns assoc text ann))))
     [anns stats]))
+
+(defn annotation-finished? [ann-stats]
+   (= (:total ann-stats) (+ (:success ann-stats) (:error ann-stats))))
+
+(def annotation-stats (atom nil))
+
+(defn annotate-texts-blocking [& args]
+  (let [[anns stats] (apply annotate-texts args)]
+    (while (not (annotation-finished? @stats))
+      (Thread/sleep 1000))
+    (swap! annotation-stats (constantly @stats))
+    @anns))
+
+(defn run-annotations
+  ([name texts]
+   (run-annotations 10 name texts))
+  ([n name texts]
+     (let [configs {:nerd-combined [:nerd "combined"]
+                    :spotlight [:spotlight]
+                    :fox-opennlp [:fox :opennlp]}]
+       (doseq [[config-name [extractor & args]] configs]
+         (let [anns (apply annotate-texts-blocking n extractor texts args)]
+           (spit (str name "-anns-" (name config-name) ".edn") anns)
+           (println "annotated using" config-name @annotation-stats))))))
