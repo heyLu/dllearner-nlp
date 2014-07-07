@@ -95,3 +95,22 @@ limit " n)))
                  :fox fox/annotate-text*
                  :spotlight spotlight/annotate-text*)]
     (apply ann-fn text args)))
+
+; adapted from clojure.core/pmap
+(defn pmap2 [n f coll]
+  (let [rets (map #(future (f %)) coll)
+        step (fn step [[x & xs :as vs] fs]
+               (lazy-seq
+                (if-let [s (seq fs)]
+                  (cons (deref x) (step xs (rest s)))
+                  (map deref vs))))]
+    (step rets (drop n rets))))
+
+(defn annotate-texts [n extractor texts & args]
+  (vec
+   (pmap2 n
+          (fn [text]
+            (let [short-text (apply str (take 10 text))]
+              (println "annotating " short-text)
+              (apply annotate-text extractor text args)))
+          texts)))
