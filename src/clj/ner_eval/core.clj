@@ -127,11 +127,14 @@ limit " n)))
 (defn run-annotations
   ([name texts]
    (run-annotations 10 name texts))
-  ([n name texts]
-     (let [configs {:nerd-combined [:nerd "combined"]
+  ([n id texts]
+     (let [texts (if (vector? (first texts))
+                   (map #(nth % 1) texts)
+                   texts)
+           configs {:nerd-combined [:nerd "combined"]
                     :spotlight [:spotlight]
                     :fox-opennlp [:fox :opennlp]}]
        (doseq [[config-name [extractor & args]] configs]
          (let [anns (apply annotate-texts-blocking n extractor texts args)]
-           (spit (str name "-anns-" (name config-name) ".edn") anns)
+           (spit (str id "-anns-" (name config-name) ".edn") anns)
            (println "annotated using" config-name @annotation-stats))))))
