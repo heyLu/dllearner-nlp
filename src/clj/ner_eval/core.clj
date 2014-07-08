@@ -35,7 +35,9 @@
 
             [ner-eval.nerd :as nerd]
             [ner-eval.fox :as fox]
-            [ner-eval.dbpedia-spotlight :as spotlight]))
+            [ner-eval.dbpedia-spotlight :as spotlight]
+
+            [ner-eval.metrics :as m]))
 
 (defn simple-tsv [str]
   (mapv (fn [line]
@@ -138,3 +140,9 @@ limit " n)))
          (let [anns (apply annotate-texts-blocking n extractor texts args)]
            (spit (str id "-anns-" (name config-name) ".edn") anns)
            (println "annotated using" config-name @annotation-stats))))))
+
+(defn run-stats [prefix & [dir]]
+  (let [files (filter #(.startsWith (.getName %) prefix) (.listFiles (java.io.File. (or dir "."))))]
+    (doseq [file files]
+      (let [anns (edn/read-string (slurp file))]
+        (println (str  (.getName file) ": " (m/annotation-stats anns)))))))
