@@ -82,6 +82,12 @@ where {
 }
 limit " n)))
 
+(defn just-text [text]
+  (cond
+    (map? text) (:text text)
+    (vector? text) (nth text 1)
+    :else text))
+
 (defn annotate-text
   "Annotate the entities in the text using external NER tools.
 
@@ -92,10 +98,7 @@ limit " n)))
     * `:nerd`: any of the strings combined, alchemyapi, datatxt, dbspotlight, lupedia, opencalais, saplo, semitags, textrazor, thd, wikimeta, yahoo or zemanta
     * `:spotlight`: a map of parameters to pass to dbpedia spotlight, e.g. `{:lang \"de\", :confidence 0.5}`"
   [extractor text & args]
-  (let [text (cond
-               (map? text) (:text text)
-               (vector? text) (nth text 1)
-               :else text)
+  (let [text (just-text text)
         ann-fn (case extractor
                  :nerd nerd/annotate-text*
                  :fox fox/annotate-text*
@@ -115,7 +118,7 @@ limit " n)))
                     (catch Throwable c
                       nil))]
           (swap! stats update-in [(if ann :success :error)] inc)
-          (swap! anns assoc text ann))))
+          (swap! anns assoc (just-text text) ann))))
     [anns stats]))
 
 (defn annotation-finished? [ann-stats]
