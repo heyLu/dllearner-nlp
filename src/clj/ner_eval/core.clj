@@ -141,10 +141,10 @@ limit " n)))
   ([n id texts]
    (run-annotations n id texts default-configs))
   ([n id texts configs]
-     (doseq [[config-name [extractor & args]] configs]
-       (let [anns (apply annotate-texts-blocking n extractor texts args)]
-         (spit (str id "-anns-" (name config-name) ".edn") anns)
-         (println "annotated using" config-name @annotation-stats)))))
+   (doseq [[config-name [extractor & args]] configs]
+     (let [anns (apply annotate-texts-blocking n extractor texts args)]
+       (spit (str id "-anns-" (name config-name) ".edn") anns)
+       (println "annotated using" config-name @annotation-stats)))))
 
 (defn run-stats [prefix & [dir]]
   (let [files (filter #(.startsWith (.getName %) prefix) (.listFiles (java.io.File. (or dir "."))))]
