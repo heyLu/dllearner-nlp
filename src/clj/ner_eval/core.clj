@@ -151,11 +151,15 @@ limit " n)))
 
 (defn run-stats [prefix & [ref-name dir]]
   (let [files (filter #(.startsWith (.getName %) prefix) (.listFiles (java.io.File. (or dir "."))))
-        ref-anns (edn/read-string (slurp (or ref-name (first files))))]
+        ref-anns (edn/read-string (slurp (or ref-name (first files))))
+        csv-name (str prefix ".csv")]
+    (spit csv-name (str "dataset, " m/stats-csv-header "\n"))
     (doseq [file files]
       (let [anns (edn/read-string (slurp file))
             file-name (.getName file)
             stats (m/annotation-stats anns (if (not= file-name ref-name)
                                              ref-anns
-                                             nil))]
+                                             nil))
+            csv-stats (cons (.substring file-name (count prefix)) (m/stats-to-csv stats))]
+        (spit csv-name (str (apply str (interleave csv-stats (repeat ", "))) "\n") :append true)
         (println (str  file-name ": " stats))))))

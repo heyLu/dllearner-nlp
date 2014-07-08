@@ -134,3 +134,16 @@
           mapping-stats
           overlap-stats))
    :anns :texts :anns-for-texts :ref-anns))
+
+(def stats-csv-header
+  "total, unique, ann-length, overlap-length, most-mappings, %-most-mappings")
+
+(defn stats-to-csv [stats]
+  (let [{:keys [total unique ann-length overlaps mappings]} stats
+        [mtotal most-mappings mv] (reduce-kv (fn [[total mk mv] k v]
+                                               (if (> v mv)
+                                                 [(+ total v) k v]
+                                                 [(+ total v) mk mv]))
+                                             [0 nil 0]
+                                             mappings)]
+    [total unique (:avg ann-length) (:avg overlaps) most-mappings (float (* 100 (/ mv mtotal)))]))
