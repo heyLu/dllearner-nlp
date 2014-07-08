@@ -1,0 +1,8 @@
+dataset, total, unique, ann-length, overlap-length, most-mappings, %-most-mappings
+-spotlight.edn, 579, 279, 10.103627, 0.0, dbpedia.org, 100.0, 
+-nerd-combined.edn, 1018, 658, 10.524558, 2.4328358, dbpedia.org, 39.78389, 
+-fox-opennlp.edn, 241, 106, 10.809129, 3.3333333, dbpedia.org, 78.0083, 
+-nerd-alchemyapi.edn, 924, 257, 11.477273, 0.78431374, , 43.61472, 
+-fox-balie.edn, 724, 191, 5.3950276, -1.1891892, dbpedia.org, 97.51381, 
+-fox-illinois.edn, 577, 272, 10.292894, 0.6052632, dbpedia.org, 82.14905, 
+-fox-stanford.edn, 485, 237, 10.068041, 0.104166664, dbpedia.org, 83.91753, 
