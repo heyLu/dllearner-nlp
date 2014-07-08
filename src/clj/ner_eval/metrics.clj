@@ -69,6 +69,20 @@
     :ann-length (coll-stats (map (comp count :text) anns))
     :word-length (coll-stats (mapcat #(map count (str/split % #"\s+")) texts))))
 
+(defn mapping-stats [{:keys [anns] :as m}]
+  (assoc m
+    :mappings (reduce (fn [mappings ann]
+                        (let [entity (:entity ann)
+                              mapped-ns (try
+                                          (.getHost (java.net.URL. entity))
+                                          (catch Throwable t
+                                            entity))]
+                          (update-in mappings [mapped-ns]
+                                     (fn [old]
+                                       (inc (or old 0))))))
+                      {}
+                      anns)))
+
 (defn annotation-stats [anns-map]
   (dissoc
    (let [m (assoc {}
@@ -76,5 +90,6 @@
              :texts (keys anns-map))]
      (->> m
           count-stats
-          word-stats))
+          word-stats
+          mapping-stats))
    :anns :texts))
