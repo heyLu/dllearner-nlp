@@ -130,20 +130,21 @@ limit " n)))
     (swap! annotation-stats (constantly @stats))
     @anns))
 
+(def default-configs
+  {:nerd-combined [:nerd "combined"]
+   :spotlight [:spotlight]
+   :fox-opennlp [:fox :opennlp]})
+
 (defn run-annotations
   ([name texts]
    (run-annotations 10 name texts))
   ([n id texts]
-     (let [texts (if (vector? (first texts))
-                   (map #(nth % 1) texts)
-                   texts)
-           configs {:nerd-combined [:nerd "combined"]
-                    :spotlight [:spotlight]
-                    :fox-opennlp [:fox :opennlp]}]
-       (doseq [[config-name [extractor & args]] configs]
-         (let [anns (apply annotate-texts-blocking n extractor texts args)]
-           (spit (str id "-anns-" (name config-name) ".edn") anns)
-           (println "annotated using" config-name @annotation-stats))))))
+   (run-annotations n id texts default-configs))
+  ([n id texts configs]
+     (doseq [[config-name [extractor & args]] configs]
+       (let [anns (apply annotate-texts-blocking n extractor texts args)]
+         (spit (str id "-anns-" (name config-name) ".edn") anns)
+         (println "annotated using" config-name @annotation-stats)))))
 
 (defn run-stats [prefix & [dir]]
   (let [files (filter #(.startsWith (.getName %) prefix) (.listFiles (java.io.File. (or dir "."))))]
