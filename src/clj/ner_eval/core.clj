@@ -92,7 +92,11 @@ limit " n)))
     * `:nerd`: any of the strings combined, alchemyapi, datatxt, dbspotlight, lupedia, opencalais, saplo, semitags, textrazor, thd, wikimeta, yahoo or zemanta
     * `:spotlight`: a map of parameters to pass to dbpedia spotlight, e.g. `{:lang \"de\", :confidence 0.5}`"
   [extractor text & args]
-  (let [ann-fn (case extractor
+  (let [text (cond
+               (map? text) (:text text)
+               (vector? text) (nth text 1)
+               :else text)
+        ann-fn (case extractor
                  :nerd nerd/annotate-text*
                  :fox fox/annotate-text*
                  :spotlight spotlight/annotate-text*)]
