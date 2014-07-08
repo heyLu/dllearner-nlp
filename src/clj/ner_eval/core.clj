@@ -149,8 +149,13 @@ limit " n)))
        (spit (str id "-anns-" (name config-name) ".edn") anns)
        (println "annotated using" config-name @annotation-stats)))))
 
-(defn run-stats [prefix & [dir]]
-  (let [files (filter #(.startsWith (.getName %) prefix) (.listFiles (java.io.File. (or dir "."))))]
+(defn run-stats [prefix & [ref-name dir]]
+  (let [files (filter #(.startsWith (.getName %) prefix) (.listFiles (java.io.File. (or dir "."))))
+        ref-anns (edn/read-string (slurp (or ref-name (first files))))]
     (doseq [file files]
-      (let [anns (edn/read-string (slurp file))]
-        (println (str  (.getName file) ": " (m/annotation-stats anns)))))))
+      (let [anns (edn/read-string (slurp file))
+            file-name (.getName file)
+            stats (m/annotation-stats anns (if (not= file-name ref-name)
+                                             ref-anns
+                                             nil))]
+        (println (str  file-name ": " stats))))))
