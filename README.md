@@ -32,6 +32,9 @@ The easiest way is to run the latest jar directly:
 
     # Using an example config file:
     $ java -jar ner-eval-latest.jar examples/germany10-config.edn
+    ...
+    # If you want to use the nerd extractor, you need to set the api key in an env variable:
+    $ NERD_API_KEY=<your-api-key> java -jar ner-eval-latest.jar examples/germany10-config.edn
 
 Otherwise, you can also run this from the repl.
 
