@@ -1,0 +1,19 @@
+{:name "germany10"
+ :query
+ "select ?city ?abstract
+where {
+  ?city rdf:type dbpedia-owl:Town ;
+        dbpedia-owl:country dbpedia:Germany ;
+        dbpedia-owl:abstract ?abstract ;
+        dbpedia-owl:populationTotal ?population .
+  filter (lang(?abstract) = \"en\")
+  optional { ?city dbpedia-owl:capital ?capital }
+  filter (!bound(?capital))
+}
+order by desc(?population)
+limit 10"
+ :extractors {
+   :dbp-spotlight [:spotlight]
+   :fox-opennlp [:fox :opennlp]
+   ; you need to set the NERD_API_KEY environment variable for this to work
+   :nerd-alchemyapi [:nerd "alchemyapi"]}}
