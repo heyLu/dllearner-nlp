@@ -28,7 +28,7 @@ NLP: given a text, extract terms from it
 
 # Usage
 
-The easiest way is to run the latest jar directly:
+The easiest way is to run the [latest jar](https://github.com/heyLu/dllearner-nlp/releases/download/v0.1.0/ner-eval-0.1.0.jar) directly:
 
     # Using an example config file:
     $ java -jar ner-eval-latest.jar examples/germany10-config.edn
