@@ -28,6 +28,13 @@ NLP: given a text, extract terms from it
 
 # Usage
 
+The easiest way is to run the latest jar directly:
+
+    # Using an example config file:
+    $ java -jar ner-eval-latest.jar examples/germany10-config.edn
+
+Otherwise, you can also run this from the repl.
+
     # install [Leiningen](https://github.com/technomancy/leiningen)
     $ lein repl
     > (use 'ner-tools.core)
