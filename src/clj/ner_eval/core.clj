@@ -165,3 +165,23 @@ limit " n)))
             csv-stats (cons sanitized-name (m/stats-to-csv stats))]
         (spit csv-name (str (apply str (interleave csv-stats (repeat ", "))) "\n") :append true)
         (println (str  file-name ": " stats))))))
+
+(defn run-all
+  "Run a query against dbpedia, annotate and output stats to a CSV file."
+  [{:keys [name query extractors] :as config}]
+  (let [num-threads (get config :num-threads 10)]
+    (println "Running query...")
+    (let [query-results (dbpedia-query query)]
+      (println "Got" (count query-results) "results.")
+      (println "Annotating... (using" num-threads "threads)")
+      (run-annotations num-threads name query-results extractors)
+      (println "Generating stats...")
+      (run-stats name)
+      (println "Stats can be found in " (str name ".csv")))))
+
+(defn -main [& config-files]
+  (when-not (seq config-files)
+    (println "Error: Specify at least one config file to use."))
+  (doseq [config-file config-files]
+    (let [config (edn/read-string (slurp config-file))]
+      (run-all config))))
