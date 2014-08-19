@@ -8,7 +8,6 @@ there seems to be a cache for documents and annotations. adding a document with 
 [1]: https://github.com/giusepperizzo/nerd4java/blob/master/src/fr/eurecom/nerd/client/NERDResult.java#L129-L130"
   (:require [clj-http.client :as http]))
 
-(def api-key "120rj2n2stnmquhgcgim11ucrgd68jh4")
 (def api-base-url "http://nerd.eurecom.fr/api/")
 (def api-extractors
   #{"combined" "alchemyapi" "datatxt" "dbspotlight" "lupedia" "opencalais" "saplo" "semitags" "textrazor" "thd" "wikimeta" "yahoo" "zemanta"})
@@ -18,7 +17,7 @@ there seems to be a cache for documents and annotations. adding a document with 
    {:method method
     :url (str api-base-url path)
     :content-type :x-www-form-urlencoded
-    :query-params (into {:key api-key} params)
+    :query-params (into {:key (System/getenv "NERD_API_KEY")} params)
     :as :json
     :throw-entire-message? true}))
 
