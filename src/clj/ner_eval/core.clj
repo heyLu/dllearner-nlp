@@ -29,6 +29,7 @@
 - with abstracts: {:name \"...\", :abstract \"...\"} (maybe also comment?)
 - entity extraction: vector of maps, name, abstract, entities:
     * entities: `[{:text \"...\", :start 0, :end 10, :entity \"<url>\"}]`"
+  (:gen-class) ; to be able to run -main from an uberjar
   (:require [clj-http.client :as http]
             [clojure.string :as str]
             [clojure.edn :as edn]
