@@ -184,4 +184,5 @@ limit " n)))
     (println "Error: Specify at least one config file to use."))
   (doseq [config-file config-files]
     (let [config (edn/read-string (slurp config-file))]
-      (run-all config))))
+      (run-all config)))
+  (shutdown-agents))
