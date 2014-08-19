@@ -160,6 +160,8 @@ limit " n)))
             stats (m/annotation-stats anns (if (not= file-name ref-name)
                                              ref-anns
                                              nil))
-            csv-stats (cons (.substring file-name (count prefix)) (m/stats-to-csv stats))]
+            result-prefix (str prefix "-anns-")
+            sanitized-name (.substring file-name (count result-prefix) (- (count file-name) (count ".edn")))
+            csv-stats (cons sanitized-name (m/stats-to-csv stats))]
         (spit csv-name (str (apply str (interleave csv-stats (repeat ", "))) "\n") :append true)
         (println (str  file-name ": " stats))))))
