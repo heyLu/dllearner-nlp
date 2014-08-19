@@ -150,7 +150,7 @@ limit " n)))
        (println "annotated using" config-name @annotation-stats)))))
 
 (defn run-stats [prefix & [ref-name dir]]
-  (let [files (filter #(.startsWith (.getName %) prefix) (.listFiles (java.io.File. (or dir "."))))
+  (let [files (filter #(.startsWith (.getName %) (str prefix "-anns-")) (.listFiles (java.io.File. (or dir "."))))
         ref-anns (edn/read-string (slurp (or ref-name (first files))))
         csv-name (str prefix ".csv")]
     (spit csv-name (str "dataset, " m/stats-csv-header "\n"))
